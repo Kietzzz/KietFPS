@@ -58,13 +58,47 @@
   <ItemGroup>
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Zoom.cs" />
+    <Compile Include="Assets\Scripts\CredToMenu.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\FirstPersonLook.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\Actions.cs" />
+    <Compile Include="Assets\Scripts\Weapons\GlobalAmmo.cs" />
     <Compile Include="Assets\Scripts\Weapons\HandgunPickup.cs" />
+    <Compile Include="Assets\Scripts\Stats\RecycleLevel.cs" />
+    <Compile Include="Assets\Scripts\Environment\ExtraLife.cs" />
     <Compile Include="Assets\Scripts\DoorOpenFirst.cs" />
+    <Compile Include="Assets\Scripts\SplashToMenu.cs" />
+    <Compile Include="Assets\Scripts\Environment\GoldCollect.cs" />
+    <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Stats\GlobalComplete.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Stats\GlobalLife.cs" />
+    <Compile Include="Assets\Scripts\Stats\FloorTimer.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Crouch.cs" />
+    <Compile Include="Assets\Scripts\Enemies\EnemyDeath.cs" />
+    <Compile Include="Assets\Scripts\Weapons\HandgunFire.cs" />
+    <Compile Include="Assets\Scripts\Environment\Per10HealthCollect.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\MainMenuControl.cs" />
+    <Compile Include="Assets\Scripts\Stats\GlobalHealth.cs" />
+    <Compile Include="Assets\Scripts\Enemies\SoldierAI.cs" />
+    <Compile Include="Assets\Scripts\Environment\FullHealthCollect.cs" />
+    <Compile Include="Assets\Scripts\Stats\GlobalScore.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterPanel.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\Jump.cs" />
+    <Compile Include="Assets\Scripts\Enemies\LookPlayer.cs" />
+    <Compile Include="Assets\Scripts\FloorSpecific\Floor001\FirstKeyA.cs" />
+    <Compile Include="Assets\Scripts\Weapons\HandgunAmmoPick.cs" />
+    <Compile Include="Assets\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+    <Compile Include="Assets\Scripts\Scerets\Floor001A.cs" />
+    <Compile Include="Assets\Scripts\FloorSpecific\FloorComplete.cs" />
+    <Compile Include="Assets\Scripts\RemoveFlash.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Yurowm\Shaders\SkinShader.shader" />
+    <None Include="Assets\Models\Key\readME keys.txt" />
+    <None Include="Assets\Mega Fantasy Props Pack\README.txt" />
+    <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
